@@ -1,0 +1,223 @@
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #277cd1;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 1rem;
+
+}
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    flex-wrap: wrap;
+}
+
+.header-image {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+.header-text {
+    text-align: center;
+    margin-left: 5%;
+}
+
+.header-text h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.header-text p {
+    margin: 0.5rem 0 0;
+}
+
+.header-name {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+
+.streams {
+    padding: 2rem;
+    text-align: center;
+}
+
+.streams h2 {
+    margin-bottom: 2rem;
+}
+
+.stream-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.stream-card {
+    background: #fff;
+    padding: 2rem;
+    width: 200px;
+    text-decoration: none;
+    color: #333;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.stream-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0,0,0,0.2);
+    background: #e8f5e9;
+}
+
+.stream-card h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+.back-link {
+    display: inline-block;
+    margin-top: 2rem;
+    text-decoration: none;
+    color: #277cd1;
+    font-weight: bold;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+.note {
+    background: #e8f5e9;
+    border-left: 4px solid #277cd1;
+    margin: 2rem auto;
+    padding: 1rem;
+    max-width: 600px;
+    text-align: left;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+.blog {
+    background: #e0f2f1;
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 800px;
+    border-radius: 8px;
+    text-align: left;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.blog h2 {
+    margin-top: 0;
+}
+
+.blog p {
+    line-height: 1.6;
+    margin: 0.5rem 0;
+}
+.future-blog {
+    background: #fffde7;
+    border-left: 6px solid #fbc02d;
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.future-blog h2 {
+    margin-top: 0;
+    background: #000;
+    color: #fff;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+}
+
+.future-blog ul {
+    list-style: disc;
+    padding-left: 2rem;
+}
+
+.future-blog li {
+    margin: 0.5rem 0;
+    line-height: 1.6;
+}
+
+.accordion-section {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+details {
+  background: #f1f8e9;
+  margin-bottom: 1rem;
+  border: 1px solid #c5e1a5;
+  border-radius: 6px;
+  padding: 1rem;
+}
+
+details summary {
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+details[open] summary {
+  margin-bottom: 0.5rem;
+}
+
+.accordion-content p {
+  margin: 0.5rem 0;
+  line-height: 1.6;
+}
+
+.passion-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.passion-card {
+  background: #fff8dc;
+  border: 1px solid #fdd835;
+  border-radius: 8px;
+  padding: 1.5rem;
+  flex: 1 1 250px;
+  max-width: 300px;
+  box-shadow: 0 2px 6px rgba(24, 233, 198, 0.1);
+  text-align: left;
+  transition: transform 0.2s ease;
+}
+
+.passion-card:hover {
+  transform: translateY(-4px);
+}
+
+.passion-card h2 {
+  margin-top: 0;
+}
+
+.passion-card p {
+  line-height: 1.6;
+}
