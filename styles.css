@@ -100,6 +100,9 @@ header {
     .header-name pre {
         font-size: 0.85rem;
     }
+    .streams h2{
+        font-size:2rem;
+    }
 }
 .streams {
     padding: 2rem;
