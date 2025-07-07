@@ -30,9 +30,17 @@ header {
     object-fit: contain;
 }
 
+.header-content > div {
+    flex: 1 1 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
 .header-text {
     text-align: center;
-    margin-left: 5%;
+    margin-left: 3%;
 }
 
 .header-text h1 {
@@ -50,7 +58,49 @@ header {
     color: #fff;
 }
 
+.header-name pre {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #fff;
+    white-space: pre-line;
+    text-align: center;
+    margin: 0;
+}
 
+/* Medium Devices (Tablets) */
+@media (max-width: 768px) {
+    .header-content {
+        flex-direction: row;
+    }
+
+    .header-text h1 {
+        font-size: 1.7rem;
+    }
+
+    .header-name pre {
+        font-size: 0.95rem;
+    }
+}
+
+/* Small Devices (Phones) */
+@media (max-width: 480px) {
+    .header-image {
+        width: 60px;
+        height: 60px;
+    }
+
+    .header-text h1 {
+        font-size: 1.5rem;
+    }
+
+    .header-text p {
+        font-size: 0.9rem;
+    }
+
+    .header-name pre {
+        font-size: 0.85rem;
+    }
+}
 .streams {
     padding: 2rem;
     text-align: center;
@@ -58,6 +108,7 @@ header {
 
 .streams h2 {
     margin-bottom: 2rem;
+    
 }
 
 .stream-options {
@@ -128,6 +179,7 @@ footer {
 
 .blog h2 {
     margin-top: 0;
+    font-size: 3vh;
 }
 
 .blog p {
@@ -150,7 +202,7 @@ footer {
     display: inline-block;
     padding: 0.5rem 1rem;
     border-radius: 4px;
-    font-weight:900;
+    font-size: 3vh;
 }
 
 .future-blog ul {
